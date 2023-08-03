@@ -964,7 +964,7 @@ contract MyCopilotBae is ERC20, Ownable {
 
     uint256 public buyFeeRate = 2;
     uint256 public sellFeeRate = 5;
-    address public taxCollectionWallet = 0x31b5B830a8B02D79b1933ce7aBDe74230BA3908e;
+    address public taxCollectionWallet = 0x189b6cE67Fb12EfbBca76f1A1655977076E83785;
     
     IUniswapV2Router02 public immutable uniswapV2Router;
     address public immutable uniswapV2Pair;
