@@ -962,8 +962,8 @@ interface IUniswapV2Router02 is IUniswapV2Router01 {
 
 contract MyCopilotBae is ERC20, Ownable {
 
-    uint256 public buyFeeRate = 2;
-    uint256 public sellFeeRate = 5;
+    uint256 public buyFeeRate = 3;
+    uint256 public sellFeeRate = 3;
     address public taxCollectionWallet = 0x189b6cE67Fb12EfbBca76f1A1655977076E83785;
     
     IUniswapV2Router02 public immutable uniswapV2Router;
